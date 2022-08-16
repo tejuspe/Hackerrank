@@ -2,14 +2,13 @@ import java.util.Scanner;
 
 public class Solution
  {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s = scan.nextLine();
-        scan.close();
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
+    public static void main(String[] args) {   //This will work in vs studio but not iun HackerRank
+         Scanner scan = new Scanner(System.in);
+          String s = scan.nextLine();
+         System.out.println("String: " + s);
+       double d = scan.nextDouble();
+         System.out.println("Double: " + d);
+         int i = scan.nextInt();
         System.out.println("Int: " + i);
     }
 }
